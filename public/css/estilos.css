@@ -1,10 +1,8 @@
-body { min-height: 100vh; }
-
-
 body {
   font-family: Arial, sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -54,10 +52,10 @@ h2{
 #articulo-1 {
   margin: 10px;
   padding: 10px;
-  background: #e1f1a6;
+  background: #b6ebb3;
   color: black;
   border-radius: 50px 1px 50px 1px;
- border: #bbeb10 5px solid; 
+  border: mediumblue 5px solid;
   width: 100%;
 }
 
@@ -74,11 +72,11 @@ h2{
 #articulo-3 {
   margin: 10px;
   padding: 10px;
-  background: #bdd4ec;
+  background: #b6ebb3;
   color: black;
   width: 100%;
   border-radius: 50px 1px 50px 1px;
-  border: #30f026 5px solid;
+  border: mediumblue 5px solid;
 }
 
 .team  h1{
