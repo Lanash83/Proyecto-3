@@ -10,9 +10,9 @@ Este proyecto es una aplicación web simple compuesta por un frontend en HTML/CS
 
 ## Instrucciones de Instalación y Ejecución
 1. Clona el repositorio.
-2. Navega a la carpeta `backend` y ejecuta `npm install` para instalar dependencias.
-3. Ejecuta el servidor con `node server.js`.
-4. Abre el archivo `index.html` en tu navegador.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Ejecuta el servidor con `npm run start dev`.
+4. Abre tu navegador en tu entorno local `http://localhost:3003/`.
 
 ## URL del sitio desplegado
 [Ver sitio en Netlify](https://tu-url-de-netlify)
