@@ -12,7 +12,7 @@ Este proyecto es una aplicación web simple compuesta por un frontend en HTML/CS
 1. Clona el repositorio.
 2. Ejecuta `npm install` para instalar las dependencias.
 3. Ejecuta el servidor con `npm run start dev`.
-4. Abre tu navegador en tu entorno local `http://localhost:3003/`.
+4. Abre tu navegador en tu entorno local `http://localhost:3000/`.
 
 ## URL del sitio desplegado
-[Ver sitio en Netlify](https://tu-url-de-netlify)
+[Ver sitio en vercel](https://proyecto-3-pi.vercel.app/)
