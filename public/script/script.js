@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = document.getElementById('email').value;
         const text = document.getElementById('message').value;
 
-        const apiUrl = 'http://localhost:3003'; // Reemplaza esto con el valor correcto
+        const apiUrl = 'https://proyecto-3-pi.vercel.app/'; // Reemplaza esto con el valor correcto
   
         fetch(apiUrl + '/api/contact', {
           method: 'POST',
