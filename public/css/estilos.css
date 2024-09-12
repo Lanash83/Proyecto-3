@@ -1,3 +1,6 @@
+body { min-height: 100vh; }
+
+
 body {
   font-family: Arial, sans-serif;
   padding: 0;
@@ -78,17 +81,24 @@ h2{
   border: #30f026 5px solid;
 }
 
-
-
-footer {
-  background: #ddd;
-  text-align: center;
-  padding: 10px 0;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+.team  h1{
+  font-size: 40px;
+text-align: center;
 }
-
+.team{
+  background: #f6f6f6;
+  padding: 30px;
+}
+.team__columna img{
+border-radius: 50%;
+}
+.team p{
+  text-align: justify;
+}
+.team__grid{
+  display: grid;
+  grid-gap:30px;
+}
 
 
 /* Responsive */
@@ -141,4 +151,13 @@ footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+footer {
+  background: #ddd;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
