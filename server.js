@@ -40,7 +40,7 @@ app.use('/script',
     serveIndex(path.join(__dirname, 'public', 'script')));
 
 
-const PORT = process.env.PORT_SERVER_API|| 3000;
+const PORT = process.env.PORT_SERVER_API|| 3003;
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en el puerto ${PORT}`);
