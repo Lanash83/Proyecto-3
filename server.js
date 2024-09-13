@@ -7,7 +7,7 @@ const path = require("path");
 const serveIndex = require('serve-index');
 const app = express();
 app.use(cors());
-let contacts = []; // Base de datos simple en memoria
+let contacts = []; 
 
 
 
@@ -16,13 +16,13 @@ app.use(bodyParser.json());
 
 app.post('/api/contact', (req, res) => {
     const { name, email, text } = req.body;
-    contacts.push({ name, email, text }); // Agregar contacto a la "base de datos"
+    contacts.push({ name, email, text }); 
     console.log(req.body)
     res.status(201).json({ message: 'Contacto recibido' });
 });
 
 app.get('/api/contacts', (req, res) => {
-    res.json(contacts); // Devolver contactos
+    res.json(contacts); 
 });
 
 app.get('/', (req, res) => {
