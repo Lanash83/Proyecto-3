@@ -92,19 +92,21 @@ h2 {
 }
 
 .team__columna {
-  flex: 1 1 calc(20% - 20px); 
+  /* flex: 1 1 calc(20% - 20px);  */
+  width: 20%;
   margin: 10px; 
 }
 
 .team__columna img {
   max-width: 100%; 
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  clip-path: circle(50%);
 }
 
 .team__grid {
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: space-between; 
+  
 }
 
 .team p {
