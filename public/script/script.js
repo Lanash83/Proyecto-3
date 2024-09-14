@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const apiUrl = 'https://proyecto-3-pi.vercel.app/'; // Reemplaza esto con el valor correcto
   
-        fetch(apiUrl + '/api/contact', {
+        fetch(apiUrl + 'api/contact', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
           console.log(data);
           alert('Datos enviados con éxito');
+          document.getElementById('name').value = "";
+          document.getElementById('email').value = "";
+          document.getElementById('message').value = "";
         })
         .catch(error => {
           console.error('Error:', error);
