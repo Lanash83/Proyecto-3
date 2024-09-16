@@ -8,7 +8,7 @@ body {
 header {
   background: rgb(236, 111, 8);
   color: white;
-  padding: 10px 0;
+  padding: 7px 70px;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-  width: 10%;
+  width: 15%;
   border-radius: 50%;
   float: left;
   padding: 5px ;
@@ -65,7 +65,7 @@ h2 {
 #articulo-1, #articulo-2, #articulo-3 {
   margin: 10px;
   padding: 10px;
-  background: rgb(156, 233, 207);
+  background: rgb(168, 236, 214);
   color: black;
   border-radius: 50px 1px 50px 1px;
   
