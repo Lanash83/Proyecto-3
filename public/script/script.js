@@ -33,4 +33,26 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Formulario no encontrado');
     }
   });
-  
+
+
+  // Modal
+let currentImageIndex = 0;
+let images = [];
+
+function openModal(src) {
+    const modal = document.getElementById("modal");
+    const modalImage = document.getElementById("modalImage");
+    modal.style.display = "block";
+    modalImage.src = src;
+    images = Array.from(document.querySelectorAll('.logo44')).map(img => img.src);
+    currentImageIndex = images.indexOf(src);
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+function changeImage(direction) {
+    currentImageIndex = (currentImageIndex + direction + images.length) % images.length;
+    document.getElementById("modalImage").src = images[currentImageIndex];
+}
