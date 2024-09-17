@@ -37,17 +37,18 @@
             <form class="contact-form" id="contactForm">
                 <div class="form-group">
                     <label for="name">Nombre:</label>
-                    <input class="form-control-input" type="text" id="name" placeholder="ingresa tu nombre" required>
+                    <input class="form-control-input" type="text" id="name" placeholder="ingresa tu nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input class="form-control-input" type="email" id="email" placeholder="ingresa tu email" required>
+                    <input class="form-control-input" type="email" id="email" placeholder="ingresa tu email" name="email" required>
                 </div>
                 <div class="form-group message">
                     <label for="message">Mensaje:</label>
-                    <textarea placeholder="escribe tu consulta" rows="5" class="form-control-input" id="message" name="message" required></textarea>
+                    <textarea placeholder="escribe tu consulta" rows="5" class="form-control-input" id="message" name="mensaje" required></textarea>
                 </div>
-                <button class="btn" type="button" onclick="guardarContacto()">Enviar</button>
+                <button class="btn" type="button" onclick ="guardarContacto()">Enviar</button>
+                
             </form>
 
             <p>También puedes seguirnos en nuestras redes sociales para inspirarte y ver nuestros últimos trabajos.</p>

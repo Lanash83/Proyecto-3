@@ -15,4 +15,4 @@ Este proyecto es una aplicación web simple compuesta por un frontend en HTML/CS
 4. Abre tu navegador en tu entorno local `http://localhost:3003/`.
 
 ## URL del sitio desplegado
-[Ver sitio en vercel](https://proyecto-3-pi.vercel.app/)
+[Ver sitio en vercel](https://proyecto-3-nazlys-projects.vercel.app//)
