@@ -18,7 +18,7 @@ async function guardarContacto() {
         }
 
         response = await response.json();
-        console.log('Success:', response);
+        alert("Información enviada con éxito!");
     } catch (error) {
         console.error('Error:', error);
     }
