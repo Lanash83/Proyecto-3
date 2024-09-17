@@ -9,8 +9,6 @@ const app = express();
 app.use(cors());
 let contacts = []; 
 
-
-
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 
@@ -34,6 +32,10 @@ app.get('/contacto', (req, res) => {
 })
 app.get('/sobre', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'views', 'sobre.html'));
+})
+
+app.get('/mug', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'views', 'mug.html'));
 })
 
 app.use('/script', 
